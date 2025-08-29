@@ -8,7 +8,8 @@
 }
 
 body {
-    background: linear-gradient(135deg, #5EABD6 0%, #FEFBC7 100%);
+    background: #5EABD6;
+    background: linear-gradient(90deg, rgba(94, 171, 214, 1) 0%, rgba(254, 251, 199, 1) 100%);
     line-height: 1.6;
 }
 
@@ -40,8 +41,8 @@ body {
 .input-group {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    margin-bottom: 32px;
+    gap: 4px;
+    margin-bottom: 16px;
 }
 
 .input-group label {
@@ -75,7 +76,8 @@ body {
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-bottom: 24px;
+    margin-bottom: 28px;
+    margin-top: 12px;
 }
 
 .bmi-button:hover {
