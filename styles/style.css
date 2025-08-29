@@ -11,11 +11,12 @@ body {
     background: #5EABD6;
     background: linear-gradient(135deg, rgba(94, 171, 214, 1) 0%, rgba(254, 251, 199, 1) 100%);
     min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
 
 .bmi-container {
     max-width: 500px;
-    margin: 3rem auto;
     padding: 40px;
     background: white;
     border-radius: 20px;
