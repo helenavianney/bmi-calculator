@@ -7,24 +7,24 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <section>
+    <section class="bmi-container">
         <div class="title">
             <h2>Check Your BMI</h2>
             <p>Enter your weight and height below to check your BMI results</p>
         </div>
 
         <form>
-            <div>
+            <div class="input-group">
                 <label for="weight">Put your weight in here (KG)</label>
-                <input type="number" name="weight" id="weight">
+                <input type="number" name="weight" id="weight" inputmode="numeric">
             </div>
 
-            <div>
+            <div class="input-group">
                 <label for="height">And your height in here (CM)</label>
-                <input type="number" name="height" id="height">
+                <input type="number" name="height" id="height" inputmode="numeric">
             </div>
 
-            <button type="submit">Calculate BMI</button>
+            <button type="submit" class="bmi-button">Calculate BMI</button>
         </form>
 
         <div class="message" id="message"></div>

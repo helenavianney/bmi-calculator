@@ -8,7 +8,7 @@ document.addEventListener('submit', (e) => {
         return weight / (height / 100) ** 2;
     }
     
-    const BMI = result(height, weight).toFixed(2);
+    const BMI = result(height, weight).toFixed(1);
     
     let category;
     if (BMI < 18.5) {
@@ -22,5 +22,5 @@ document.addEventListener('submit', (e) => {
     }
 
     const message = document.getElementById('message');
-    message.innerHTML = `<p>Your BMI is ${BMI} which means You are ${category}</p>`;
+    message.innerHTML = `<p>Your BMI is <b>${BMI}</b> which means You are <b>${category}</b></p>`;
 });

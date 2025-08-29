@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #5EABD6 0%, #FEFBC7 100%);
+    line-height: 1.6;
+}
+
+.bmi-container {
+    max-width: 500px;
+    margin: 3rem auto;
+    padding: 40px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(94, 171, 214, 0.15);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.title p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.input-group label {
+    font-weight: 500;
+    color: #333;
+    font-size: 1rem;
+}
+
+.input-group input {
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    background: #FEFBC7;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.input-group input:focus {
+    border: 2px solid #5EABD6;
+    box-shadow: 0 0 0 3px rgba(94, 171, 214, 0.1);
+}
+
+.bmi-button {
+    background: #5EABD6;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 24px;
+}
+
+.bmi-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(94, 171, 214, 0.3);
+}
