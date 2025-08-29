@@ -10,7 +10,7 @@
 body {
     background: #5EABD6;
     background: linear-gradient(135deg, rgba(94, 171, 214, 1) 0%, rgba(254, 251, 199, 1) 100%);
-    line-height: 1.6;
+    min-height: 100vh;
 }
 
 .bmi-container {
